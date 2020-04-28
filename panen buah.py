@@ -1,3 +1,4 @@
+import matplotlib.pyplot as plt
 import identitas
 
    listNama = ["Farhan", "Randi", "Reny", "Eka"]
@@ -12,7 +13,7 @@ import identitas
        print(" Nama Siswa  : {} ".format(listIdentitas[j].show_nama()))
        print(" Kelas       : {} ".format(listIdentitas[j].show_kelas()))
 
-import matplotlib.pyplot as plt
+
 
 def total_weight(list_weight):
     return sum(list_weight)
